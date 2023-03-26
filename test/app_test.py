@@ -20,7 +20,7 @@ class endpoint_test(TestCase):
         response = self.client.get("/part_1")
 
         assert response.status_code==200
-        assert response.text=='"Yo boys1"'
+        assert response.text=='"Yo boys"'
 
     def test_ep3(self):
         response = self.client.get("/part_2")
