@@ -22,8 +22,7 @@ jobs:
     - name: Echo current time
       run: echo $TIME
 
-    - name: Echo something.
-      run: echo "spmothinsdfgkdf"
+
 
     - name : Checkout
       uses: actions/checkout@v3
