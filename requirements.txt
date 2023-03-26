@@ -1,0 +1,6 @@
+fastapi[all]
+uvicorn
+gunicorn
+pytest
+coverage
+pytest-cov
