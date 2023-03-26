@@ -1,7 +1,7 @@
 name: Pull request test
 
 on:
-  pull-request:
+  pull_request:
     branches : ["master"]
 
 
